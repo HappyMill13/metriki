@@ -96,7 +96,5 @@ switchButton.addEventListener('click', () => {
     }
     if (first === "KM" && second === "M") {
         result.innerHTML = Number(num) * 1000 + currency2.value
-    }
-
-
+    } 
 })
