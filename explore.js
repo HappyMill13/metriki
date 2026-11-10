@@ -5,6 +5,7 @@ const button = document.querySelector('#button')
 const result = document.getElementById('result')
 const switchButton = document.getElementById('switch')
 
+
 button.addEventListener('click', () => {
     const num = inputNumber.value
     const first = currency.value
